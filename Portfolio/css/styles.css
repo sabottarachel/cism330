@@ -1,0 +1,164 @@
+/*
+    Rachel Sabotta
+    styles.css
+    02/16/2025
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, p
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Navigation */
+nav
+{
+    background-color: white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li
+{
+    display: inline-block;
+    font-size: 1em;
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+nav li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 1em 2em;
+    max-width: 100%;
+    color: #db7f8e;
+}
+
+/* header */
+header
+{
+    background-color: #52699b;
+}
+h1
+{
+    font-family: Impact, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h3
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    text-align: center; 
+    padding-bottom: 6em;
+}
+
+/*main styles*/
+main
+{
+    background-color: #eff6e1;
+}
+
+main p
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 400;
+    color: #575757;
+    margin: 2em 0.5em;
+}
+
+main h2
+{
+    color: #52699b;
+    font-family: Josefin Sans, Arial, sans-serif;
+}
+
+.headshot
+{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 400px;
+    
+}
+
+dt
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 600;
+    color: #575757;
+    margin: 0.5em;
+}
+
+dd
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 400;
+    color: #575757;
+}
+
+#contact p
+{
+    color: black;
+    padding-left: 1em;
+}
+
+#contact a
+{
+    text-decoration: none;
+    color: #db7f8e;
+}
+
+#contact h2
+{
+    text-align: center;
+    padding: 1em 0em;
+}
+
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer styles */
+footer
+{
+    background-color: white;
+    text-align: center;
+    padding: 1em 0em;
+}
+
+footer p
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 400;
+    color: #575757;
+    padding: 0.5em 0em;
+}
+
+footer a
+{
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-weight: 400;
+    color:#db7f8e;
+    text-decoration: none;
+}
