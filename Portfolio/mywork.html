@@ -7,6 +7,7 @@
 <html lang="en">
     <head>
         <title>RS Designs Portfolio - My Work</title>
+        <link rel="icon" type="image/x-icon" href="images/rs-favicon.png">
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +15,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>RS Designs</h1>
-            <h3>Clear &#9675; Concise &#9675; Creative.</h3>
-
+        <div id="green-stripe">
+            <img src="images/rs-designs-white.png">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -27,47 +27,60 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <header>
+            <h1 class="rs-designs">RS Designs</h1>
+            <h3 class="ccc">Clear &#9675; Concise &#9675; Creative.</h3>
+        </header>
+        
         <!-- Insert the main content down below in the main section-->
         <main>
-            <h2>My Work</h2>
-            <p>Check out some of my work from class projects, internship work, and freelancing!</p>
-
+            <center>
+                <h2>Take a look at some of my work!</h2>
+                <p>Various pieces of media from class projects, internship work, and freelancing!</p>
+            </center>        
                     <h4>Social Media for Abrams EyeCare</h4>
                     <p>Abrams EyeCare has launched an exciting new social media campaign that aims to engage and educate their followers.</p>
-                    <!-- <a href="https://www.facebook.com/AbramsEyeCare/" id="abrams-button">Abrams EyeCare Facebook</a> -->
-                    <article class="abrams-grid">  
-                        <section>
+                    
+                    <a href="https://www.facebook.com/AbramsEyeCare/" id="abrams-button">Abrams EyeCare Facebook</a>
+
+                    <div class="container-work">
+                        <div class="img-column-work">
                             <img src="images/abrams1.jpg" alt="graphic">
-                        </section>
-                        <section>
+                        </div>
+
+                        <div class="img-column-work">
                             <img src="images/abrams2.png" alt="graphic">
-                        </section>
-                        <section>
+                        </div>
+
+                        <div class="img-column-work">
                             <img src="images/abrams3.png" alt="graphic">
-                        </section>
-                        <section>
-                            <img src="images/abrams4.png" alt="graphic"> 
-                        </section>
-                </article>
-<!--
+                        </div>
+
+                        <div class="img-column-work">
+                            <img src="images/abrams4.png" alt="graphic">
+                        </div>    
+                    </div>
+                    
                     <h4>Magazine Spread</h4>
                     <p>I designed a magazine layout spread as an assignment for my beginner graphic design class. I used Adobe Illustrator, Photoshop, and InDesign.</p>
                     <img src="images/magazine-spread.png" alt="spread" id="magazine-spread-img">
                 
-                <article class="paradigm-grid">
                     <h4>Paradigm Digital Group Internship</h4>
                     <p>I started my internship in September 2024, and will continue with Paradigm until May 2025! At my internship, I have been assigned clients for whom I create social media content and occasionally write blogs and remarketing emails.</p>
-                    <section>
-                        <a href="https://napiertruck.com/epa-clean-trucking/" id="blog-button">Blog</a>
-                    </section>
-                    <section>
-                        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ff6bd5a6-7f65-49ee-8bf7-db77fee4a253" id="social-button">Social Media Content</a>
-                    </section>
-                    <section>
-                        <a href="https://info.mkecc.edu/mcc-email-medical-assistant/?utm_source=aweber&utm_campaign=dec_remarketing&utm_medium=email&utm_term=january_class&utm_content=logo" id="landingpage-button">Landing Page</a>
-                    </section>
-                </article>
-            -->
+                    <div class="button-container-work">
+                        <div class="button-column-work">
+                            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ff6bd5a6-7f65-49ee-8bf7-db77fee4a253" id="social-button">Social Media Content</a>
+                        </div>
+
+                        <div class="button-column-work">
+                            <a href="https://napiertruck.com/epa-clean-trucking/" id="blog-button">Blog</a>
+                        </div>
+
+                        <div class="button-column-work">
+                            <a href="https://info.mkecc.edu/mcc-email-medical-assistant/?utm_source=aweber&utm_campaign=dec_remarketing&utm_medium=email&utm_term=january_class&utm_content=logo" id="landingpage-button">Landing Page</a>
+                        </div>   
+                    </div>
         </main>
 
         <footer>

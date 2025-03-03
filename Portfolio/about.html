@@ -7,6 +7,7 @@
 <html lang="en">
     <head>
         <title>RS Designs Portfolio - About Me</title>
+        <link rel="icon" type="image/x-icon" href="images/rs-favicon.png">
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +15,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>RS Designs</h1>
-            <h3>Clear &#9675; Concise &#9675; Creative.</h3>
-        </header>
+        <div id="green-stripe">
+            <img src="images/rs-designs-white.png">
+        </div>
 
         <nav>
             <ul>
@@ -28,26 +28,72 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <header>
+            <h1 class="rs-designs">RS Designs</h1>
+            <h3 class="ccc">Clear &#9675; Concise &#9675; Creative.</h3>
+        </header>
         <!-- Insert the main content down below in the main section-->
         <main>
-            <div id="about">
-                <figure>
-                    <img src="images/rachel-headshot.jpg" alt="image of Rachel smiling in professional headshot" class="headshot">
-                    <figcaption>web & graphic designer</figcaption>
-                </figure>
-                <h2>My Education</h2>
-                    <dl>
-                        <dt>Butler University</dt>
-                            <dd>Major in Web Design and Development, minor in Strategic Communication</dd>
-                            <dd>Anticipated graduation May 2025</dd>
-                            &nbsp;
-                        <dt>Hinckley Big-Rock High School</dt>
-                            <dd>Graduated May 2022</dd>
-                            <dd>Attended Waubonsee Community College for Dual-Credit classes</dd>
-                    </dl>
-                    
-                <h2>My Work Experience</h2>
-                <dl>
+            <div class="edu-container">
+                <div class="edu-img-column">
+                    <img src="images/rachel-headshot.jpg" alt="image of Rachel smiling in professional headshot">
+                </div>
+                <div class="edu-text-column">
+                    <h2>My Education</h2>
+                        <dl>
+                            <dt>Butler University</dt>
+                                <dd>Major in Web Design and Development, minor in Strategic Communication</dd>
+                                <dd>Anticipated graduation May 2025</dd>
+                                &nbsp;
+                            <dt>Hinckley Big-Rock High School</dt>
+                                <dd>Graduated May 2022</dd>
+                                <dd>Attended Waubonsee Community College for Dual-Credit classes</dd>
+                        </dl>
+                </div>
+            </div>
+            
+            <div id="work-section">
+                <center><h2>My Work Experience</h2></center>
+                
+                    <table>
+                        <tr>
+                            <th>Social Media & Digital Content Intern</th>
+                            <td>Paradigm Digital Group</td>
+                            <td>Sep. 2024 - Present</td>
+                            <td>Create social media content for clients, including career colleges and truck driving schools. Received training in various parts of the agency, such as email remarketing, content calendars, landing pages, and participating in weekly client meetings</td>
+                        </tr>
+
+                        <tr>
+                            <th>Web Designer - Squarespace</th>
+                            <td>Parenting with Brittany Joy (PBJ)</td>
+                            <td>January 2025 - Present</td>
+                            <td>description</td>
+                        </tr>
+
+                        <tr>
+                            <th>Web Developer - Wordpress</th>
+                            <td>Magic Promotions</td>
+                            <td>June 2024 - Present</td>
+                            <td>Initially started by making edits and additions to the Magic Promotions WordPress website, starting from the work of another student, using Elementor, OceanWP, and WooCommerce. Currently collaborating with Magic Promotions to build websites for other clients.</td>
+                        </tr>
+
+                        <tr>
+                            <th>Social Media Specialist</th>
+                            <td>Abrams EyeCare</td>
+                            <td>September 2023 - Present</td>
+                            <td>Joined forces with another Butler student to build a social media campaign, which included print flyers and digital graphics. Created templates and guidelines to help prepare the company for the future.</td>
+                        </tr>
+
+                        <tr>
+                            <th>Speciality Sales Associate</th>
+                            <td>Target</td>
+                            <td>September 2021 - Present</td>
+                            <td>description</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--<dl>
                     <dt>Paradigm Digital Group</dt>
                         <dd>Social Media and Digital Content Intern</dd>
                         <dd>September 2024 - present</dd>
@@ -68,7 +114,7 @@
                         <dd>Wordpress Developer</dd>
                         <dd>January - February 2023</dd>
                 </dl>
-            </div>
+            </div> -->
         </main>
 
         <footer>
