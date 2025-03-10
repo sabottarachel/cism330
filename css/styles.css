@@ -612,8 +612,8 @@ footer a:hover {
 
     /* ABRAMS MY WORK CONTAINER */
     .img-column-abrams {
-        width: 48%; /* Two images per row on smaller screens */
-        margin: 10px 0; /* Adds vertical margin between images */
+        width: 48%;
+        margin: 10px 0;
     }
 
     #contact h2 {
