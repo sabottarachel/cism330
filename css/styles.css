@@ -188,12 +188,13 @@ h4 {
     display: flex;
 	justify-content: space-between;
 	width: 80%;
-    margin: auto;
+    margin: 20px auto;
     flex-wrap: wrap;
 }
 
 .img-column-abrams {
-    margin: 0 5px;
+    width: 23%;
+    margin: 0 10px;
     box-sizing: border-box;
 }
 
@@ -611,12 +612,8 @@ footer a:hover {
 
     /* ABRAMS MY WORK CONTAINER */
     .img-column-abrams {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .container-abrams {
-        justify-content: center;
+        width: 48%; /* Two images per row on smaller screens */
+        margin: 10px 0; /* Adds vertical margin between images */
     }
 
     #contact h2 {
