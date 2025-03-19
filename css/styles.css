@@ -340,16 +340,10 @@ th, td {
 }
 
 /* CONTACT PAGE STYLES */
-#contact
-{
-	justify-content: center;
-	align-items: center;
-}
-
 #contact p
 {
     color: black;
-    padding-left: 1em;
+	text-align: center;
 }
 
 #contact a
