@@ -751,12 +751,4 @@ footer a:hover {
     table {
         display: table;
     }
-
-    h2, h4 {
-        font-size: 1.3em;
-    }
-
-    #contact h2 {
-        font-size: 3em;
-    }
 }
