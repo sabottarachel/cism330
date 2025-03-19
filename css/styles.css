@@ -340,6 +340,11 @@ th, td {
 }
 
 /* CONTACT PAGE STYLES */
+#contact
+{
+	justify-content: center;
+	align-items: center;
+}
 
 #contact p
 {
@@ -353,7 +358,7 @@ th, td {
     color: #db7f8e;
 }
 
-#contact-container {
+/* #contact-container {
     display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -374,15 +379,15 @@ th, td {
 #text-contact-column a:hover {
     text-decoration: underline;
     color: #52699b;
-}
+}*/
 
 iframe
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    height: 55%;
+    width: 40%;
+    height: auto;
 }
 
 /* CONTACT FORM STYLES */
