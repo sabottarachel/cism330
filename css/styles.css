@@ -411,18 +411,16 @@ legend {
 }
 
 input[type=submit] {
+    font-family: Josefin Sans, Arial, sans-serif;
+    padding: 10px 20px;
     background-color: white;
     color: #db7f8e;
-    font-family: 'Josefin Sans', Arial, sans-serif;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
     border-radius: 16px;
-    border: 1px solid #db7f8e;
-    width: 25%;
-    height: 50px;
+    font-size: 18px;
     text-decoration: none;
-    margin: 8px 2px 0px 2px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .btn:hover {
