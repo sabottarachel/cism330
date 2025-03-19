@@ -349,8 +349,13 @@ th, td {
 
 #contact a
 {
-    text-decoration: underline;
+    text-decoration: none;
     color: #db7f8e;
+}
+
+#contact a:hover {
+    color: #52699b;
+    text-decoration: underline;
 }
 
 /* #contact-container {
