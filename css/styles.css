@@ -11,6 +11,10 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, section, p {
     border: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* TOP OF PAGE */
 #green-stripe {
     height: 100%;
@@ -29,6 +33,7 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, section, p {
 /* NAVIGATION */
 nav {
     background-color: white;
+    max-width: 100%;
 }
 
 nav ul {
@@ -49,7 +54,7 @@ nav li a {
     display: block;
     padding: 1em 2em;
     max-width: 100%;
-    color: #db7f8e;
+    color: #cc7284;
 }
 
 nav a:hover {
@@ -134,6 +139,15 @@ h4 {
 }
 
 /* MY WORK STYLES */
+#resume-link {
+    color: #cc7284;
+    text-decoration: none;
+}
+
+#resume-link:hover {
+    color: #52699b;
+    font-weight: bold;
+}
 
 /* container/grid styles */
 .container {
@@ -170,7 +184,7 @@ h4 {
     font-family: Josefin Sans, Arial, sans-serif;
     padding: 10px 20px;
     background-color: white;
-    color: #db7f8e;
+    color: #cc7284;
     border-radius: 16px;
     font-size: 18px;
     text-decoration: none;
@@ -180,7 +194,7 @@ h4 {
 }
 
 #mywork-button:hover {
-    background-color: #db7f8e;
+    background-color: #cc7284;
     color: white;
 }
 
@@ -275,6 +289,7 @@ dt {
     margin: 0.5em;
     font-family: Josefin Sans, Arial, sans-serif;
     font-size: 1.5em;
+    line-height: 1.5;
 }
 
 dd {
@@ -282,13 +297,14 @@ dd {
     color: #575757;
     font-family: Josefin Sans, Arial, sans-serif;
     font-size: 1.2em;
+    line-height: 1.5;
 }
 
 main .bluesection {
     background-color: #52699b;
 }
 
-/* FAQ STYLES 
+/* FAQ STYLES
 #faq-section {
     padding-bottom: 25px;
 }
@@ -322,43 +338,56 @@ main .bluesection {
 }
 
 table {
-	width: 95%;
-	margin: 0 auto;
+    display: block;
+    width: 95%;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
 th, td {
-	padding: 1.5%;
+    padding: 1.5%;
     text-align: left;
     border: 1px solid #eff5e0;
     font-family: Josefin Sans, Arial, sans-serif;
+    font-size: 1.1em;
     color: white;
-    line-height: 1.5
+    line-height: 1.5;
 }
-.table-list { 
+
+ul.table-list {
     list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+ul.table-list li {
+    margin-bottom: 8px;
+}
+
+#table-list-mobile {
+    display: none;
 }
 
 /* CONTACT PAGE STYLES */
+
 #contact p
 {
     color: black;
-    text-align: center;
-    margin-bottom: 15px;
+    padding-left: 1em;
 }
 
 #contact a
 {
     text-decoration: none;
-    color: #db7f8e;
+    color: #cc7284;
 }
 
 #contact a:hover {
     color: #52699b;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
-/* #contact-container {
+/*#contact-container {
     display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -386,12 +415,12 @@ iframe
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     width: 40%;
     height: auto;
 }
 
-/* CONTACT FORM STYLES 
+/* CONTACT FORM STYLES
 form {
     margin-top: 2%;
     padding: 2%;
@@ -417,20 +446,22 @@ legend {
 }
 
 input[type=submit] {
-    font-family: Josefin Sans, Arial, sans-serif;
-    padding: 10px 20px;
     background-color: white;
-    color: #db7f8e;
+    color: #cc7284;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
     border-radius: 16px;
-    font-size: 18px;
+    border: 1px solid #cc7284;
+    width: 25%;
+    height: 50px;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 8px 2px 0px 2px;
 }
 
 .btn:hover {
-    background-color: #db7f8e;
+    background-color: #cc7284;
     color: white;
 }
 
@@ -439,25 +470,25 @@ input {
     height: 25px;
     font-family: Josefin Sans, Arial, sans-serif;
     font-size: 1em;
-    color: #db7f8e;
+    color: #cc7284;
     box-sizing: border-box;
     border: 2px solid #52699b;
     border-radius: 8px;
     padding: 10px;
-}
-*/
+}*/
 
 /* FOOTER STYLES */
 footer {
     background-color: white;
     text-align: center;
-    padding: 1em 0em;
+    padding: 2em 0em;
 }
 
 .collab-container {
     display: flex;
 	justify-content: space-between;
 	width: 100%;
+    flex-wrap: wrap;
 }
 
 .collab-column {
@@ -519,15 +550,22 @@ footer p {
     font-size: 40px;
 }
 
+#connected {
+    color: #52699b;
+    padding: 0.5em 0em 0.5em 0em;
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-size: 30px;
+}
+
 footer a {
     font-family: Josefin Sans, Arial, sans-serif;
     font-weight: 400;
-    color:#db7f8e;
+    color:#cc7284;
     text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    font-weight: bold;
     color: #52699b;
 }
 
@@ -541,18 +579,10 @@ footer a:hover {
 /* MEDIA QUERY */
 /* Media Query for Mobile Viewport */
 @media screen and (max-width: 767px), print {
-    /* FOOTER/COLLAB */
-    .collab-container {
-        padding: 10px;
+    #work-section h2 {
+        font-size: 40px;
     }
 
-    .collab-column, .social-column {
-        min-width: 100%;
-    }
-
-    .image-default {
-        width: 30px;
-    }
     /* HOME PAGE CONTAINER */
     .container {
         flex-direction: column;
@@ -571,6 +601,7 @@ footer a:hover {
     .img-column img {
         width: 90%;
         max-width: 100%;
+        height: auto;
     }
 
     .text-column {
@@ -585,6 +616,48 @@ footer a:hover {
 
     .text-column h2, h4, p {
         padding-right: 15px;
+    }
+
+    /* MY WORK TABLE */
+    table {
+        display: none;
+    }
+
+    .table-list-mobile {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .table-list-mobile dl {
+        margin: 20px 0;
+        color: white;
+    }
+
+    .table-list-mobile dt {
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    .table-list-mobile dd {
+        font-size: 1.1em;
+        margin-left: 20px;
+        color: white;
+    }
+
+    .table-list-mobile dd ul {
+        list-style: circle;
+        padding-left: 20px;
+    }
+
+    .table-list-mobile dd ul li {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .table-list-mobile dd strong {
+        font-weight: bold;
     }
 
     /* ABOUT ME/EDUCATION CONTAINER */
@@ -623,8 +696,8 @@ footer a:hover {
 
     /* ABRAMS MY WORK CONTAINER */
     .img-column-abrams {
-        width: 48%; /* Two images per row on smaller screens */
-        margin: 10px 0; /* Adds vertical margin between images */
+        width: 48%;
+        margin: 10px 0;
     }
 
     #contact h2 {
@@ -646,19 +719,41 @@ footer a:hover {
         height: auto;
         padding-bottom: 30px;
     }
+
+    .collab-container {
+        flex-direction: column; /* Stack items in a single column */
+        text-align: center;
+    }
+
+    .collab-column {
+        margin-bottom: 1em;
+        width: 100%; /* Ensure columns take full width in mobile view */
+    }
+
+    .social-column {
+        margin-bottom: 1em;
+        width: 100%; /* Ensure social column takes full width in mobile view */
+    }
+
+    .image-hover-link {
+        width: 50px; /* Adjust icon size on smaller screens */
+        height: 50px; /* Adjust icon size on smaller screens */
+    }
 }
 
 
 /* Media Query for Tablet/Desktop Viewport */
-@media screen and (max-width: 1024px), print {
-    /* FOOTER/COLLAB */
-	.collab-container {
-        flex-direction: column;
-        gap: 15px;
+@media screen and (min-width: 768px), print {
+    #work-section h2 {
+        font-size: 40px;
     }
 
-    .collab-column, .social-column {
-        min-width: 100%;
+    .table-list-mobile {
+        display: none;
+    }
+
+    table {
+        display: table;
     }
 
     h2, h4 {
