@@ -744,10 +744,6 @@ footer a:hover {
 
 /* Media Query for Tablet/Desktop Viewport */
 @media screen and (min-width: 768px), print {
-    #work-section h2 {
-        font-size: 40px;
-    }
-
     .table-list-mobile {
         display: none;
     }
