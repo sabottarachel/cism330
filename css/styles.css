@@ -343,12 +343,13 @@ th, td {
 #contact p
 {
     color: black;
-	text-align: center;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 #contact a
 {
-    text-decoration: none;
+    text-decoration: underline;
     color: #db7f8e;
 }
 
@@ -384,7 +385,7 @@ iframe
     height: auto;
 }
 
-/* CONTACT FORM STYLES */
+/* CONTACT FORM STYLES 
 form {
     margin-top: 2%;
     padding: 2%;
@@ -438,6 +439,7 @@ input {
     border-radius: 8px;
     padding: 10px;
 }
+*/
 
 /* FOOTER STYLES */
 footer {
