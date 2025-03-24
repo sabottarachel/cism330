@@ -11,12 +11,6 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, section, p {
     border: 0;
 }
 
-* {
-
-    outline: 1px solid red; /* This will help you to see your element boundaries */
-
-}
-
 body {
     overflow-x: hidden;
 }
@@ -24,7 +18,7 @@ body {
 /* TOP OF PAGE */
 #green-stripe {
     height: 100%;
-    width: 100%;
+    width: auto;
     background-color: #adc2af;
 }
 
@@ -39,7 +33,7 @@ body {
 /* NAVIGATION */
 nav {
     background-color: white;
-    max-width: 100%;
+    width: auto;
 }
 
 nav ul {
@@ -71,6 +65,7 @@ nav a:hover {
 /* HEADER */
 header {
     height: 350px;
+    width: auto;
     background-image: url(../images/header-bg-01.png);
     background-size: cover;  
     background-repeat: no-repeat;
@@ -98,6 +93,7 @@ header {
 /* MAIN STYLES */
 main {
     background-color: #eff6e1;
+    width: auto;
 }
 
 p {
@@ -158,8 +154,8 @@ h4 {
 /* container/grid styles */
 .container {
     display: flex;
-	justify-content: space-between;
-	width: 100%;
+    justify-content: space-between;
+    width: auto;
 }
 
 .img-column {
@@ -265,7 +261,7 @@ h4 {
 .edu-container {
     display: flex;
 	justify-content: space-between;
-	width: 100%;
+	width: auto;
     align-items: center;
 }
 
@@ -493,7 +489,7 @@ footer {
 .collab-container {
     display: flex;
 	justify-content: space-between;
-	width: 100%;
+	width: auto;
     flex-wrap: wrap;
 }
 
